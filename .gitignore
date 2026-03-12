@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+db_settings.py
+
+# JavaScript / Node
+node_modules/
+computer_vision/resume_analyzer_frontend/dist/
+
+# Dev
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

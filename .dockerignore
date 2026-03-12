@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# JavaScript / Node
+node_modules/
+computer_vision/resume_analyzer_frontend/dist/
+
+# Dev / tooling
+.env
+.env.*
+.git/
+.gitignore
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

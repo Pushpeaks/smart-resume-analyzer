@@ -1,0 +1,11 @@
+Django==6.0.3
+djangorestframework==3.16.1
+django-cors-headers==4.9.0
+pymysql==1.1.2         # kept for local MySQL dev; not installed in Docker (see Dockerfile)
+whitenoise[brotli]==6.9.0
+gunicorn==23.0.0
+pypdf==6.7.5
+python-docx==1.2.0
+spacy==3.8.11
+scikit-learn==1.8.0
+numpy
