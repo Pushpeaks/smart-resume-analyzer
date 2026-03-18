@@ -17,7 +17,7 @@ RUN npm run build           # outputs to: /frontend/dist/
 # ─────────────────────────────────────────────────────────────────────────────
 # Stage 2 — Python / Django runtime
 # ─────────────────────────────────────────────────────────────────────────────
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 # System deps: libgomp (scikit-learn), build tools
 RUN apt-get update && apt-get install -y --no-install-recommends \
